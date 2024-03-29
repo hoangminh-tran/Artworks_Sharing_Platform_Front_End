@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  margin-right: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.containerChild {
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.infoTitle {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+.infoContainer {
+  flex: 1;
+  margin-top: 10%;
+  margin-left: 10px;
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 10px;
+  color: #b7bac1;
+  height: max-content;
+  font-weight: bold;
+  border: 1px solid black;
+  color: white;
+  font-size: 24px;
+}
+
+.imgContainer {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.formContainer {
+  flex: 3;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select,
+.form textarea {
+  padding: 20px;
+  color: black;
+  border: 1px solid #2e374a;
+  border-radius: 5px;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.form label {
+  font-size: 17px;
+}
+.form button {
+  width: 100%;
+  padding: 20px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+.container {
+  height: 450px;
+  background-color: rgb(221, 221, 228);
+  padding: 45px;
+  border-radius: 10px;
+}
+.title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  /* color: black; */
+}
